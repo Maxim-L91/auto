@@ -1,0 +1,87 @@
+.header {
+  min-height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+.header__logo,
+.header__inner,
+.header__menu,
+.menu__item,
+.header__contacts,
+.header__icon,
+.header__contact {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ====== Logo ====== */
+
+.header__logo {
+  padding: 28px 0;
+}
+
+/* ====== wrapper for absolute positioning ====== */
+
+.header__inner {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+.header__menu {
+  position: relative;
+}
+
+/* ====== Contacts ====== */
+
+.header__contacts {
+  margin-left: 32px;
+}
+
+/* ====== icon whatsapp ====== */
+
+.header__icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #61C4A1;
+}
+
+.header__icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ====== icon text ====== */
+
+.header__contact {
+  margin-left: 14px;
+}
+
+.header__copy {
+  font-weight: 500;
+  line-height: 24px;
+  color: #626060;
+  text-transform: capitalize;
+}
+
+.header__whatsapp {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 175%;
+  color: #1E1B1B;
+}
