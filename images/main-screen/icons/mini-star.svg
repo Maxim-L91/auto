@@ -1,0 +1,12 @@
+<svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask482_1642" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="36.000000" height="36.000000">
+		<path id="Star 5" d="M15.36 4.82L13.07 9.03C12.64 9.82 11.87 10.37 10.99 10.54L6.28 11.42C3.95 11.86 3.02 14.7 4.66 16.43L7.94 19.91C8.56 20.56 8.85 21.46 8.74 22.36L8.12 27.1C7.82 29.46 10.24 31.22 12.38 30.2L16.71 28.15C17.52 27.76 18.47 27.76 19.28 28.15L23.61 30.2C25.75 31.22 28.17 29.46 27.87 27.1L27.25 22.36C27.14 21.46 27.43 20.56 28.05 19.91L31.33 16.43C32.97 14.7 32.04 11.86 29.71 11.42L25 10.54C24.12 10.37 23.35 9.82 22.92 9.03L20.63 4.82C19.49 2.74 16.5 2.74 15.36 4.82Z" fill="#D7D1C7" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask482_1642)">
+		<rect id="Rectangle 1308" x="17.000000" y="38.000000" width="16.000004" height="43.000000" transform="rotate(-180 17.000000 38.000000)" fill="#FFB648" fill-opacity="1.000000"/>
+	</g>
+</svg>
