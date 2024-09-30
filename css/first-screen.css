@@ -1,0 +1,189 @@
+.main {
+  margin-top: 170px;
+}
+
+.main-screen__wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ======== Text block ======== */
+
+.main-screen__text {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 624px;
+  margin-right: 47px;
+}
+
+.main-screen__title {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 84px;
+}
+
+.main-screen__links {
+  margin-top: 32px;
+}
+
+/* ========== link styling ========== */
+
+.main-screen__link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 175%;
+  padding: 16px 40px;
+  color: #ffffff;
+  background-color: #FF6433;
+  border: 1px solid #FF6433;
+  border-radius: 12px;
+  margin-right: 33px;
+  transition: all 0.4s;
+}
+
+.main-screen__link:hover {
+  color: #000000;
+  background-color: transparent;
+  transition: all 0.4s;
+}
+
+.main-screen__link-video {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 19px;
+  display: inline-block;
+  padding: 14px 16px 14px 0;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px dashed transparent;
+  transition: all 0.3s;
+}
+
+.main-screen__link-video:hover {
+  border: 1px dashed #FF6433;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.main-screen__link-video img {
+  vertical-align: middle;
+  padding: 0 8px 0 16px;
+}
+
+/* ======== Timetable ======== */
+
+.main-screen__timetable {
+  margin-top: 48px;
+}
+
+.main-screen__icon,
+.main-screen__schedule {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-screen__icon {
+  margin-right: 13px;
+}
+
+.main-screen__small-copy {
+  font-weight: 500;
+  line-height: 24px;
+  color: #939191;
+}
+
+.main-screen__copy {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 175%;
+  color: #1E1B1B;
+}
+
+/* ======== img block ======== */
+
+.main-screen__img {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+/* ======== bunner service ======== */
+
+.bunner-service {
+  position: absolute;
+  top: 68px;
+  left: -36px;
+}
+
+/* ======== transparent border ======== */
+
+.main-screen__bunner {
+  width: 298px;
+  height: 120px;
+  background-color: rgba(225, 225, 225, 0.43);
+  border: 1px solid rgba(225, 225, 225, 0.43);
+  border-radius: 59px;
+}
+
+.main-screen__bunner-inner {
+  position: relative;
+  width: 280px;
+  height: 102px;
+  background-color: #fff;
+  border-radius: 59px;
+  margin: 8px auto 0 auto;
+}
+
+.main-screen__bunner-inner img,
+.main-screen__bunner-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-screen__bunner-inner img {
+  margin: 15px 0 0 14px;
+}
+
+.main-screen__bunner-text {
+  margin-top: 14px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.bunner-rate {
+  position: absolute;
+  right: -36px;
+  bottom: 70px;
+}
+
+.main-screen__bunner-rate {
+  position: absolute;
+  top: 24px;
+  left: 38px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.main-screen__bunner-rate span {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.main-screen__bunner-star {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  width: 142px;
+  height: 26px;
+  background-image: url(../images/main-screen/icons/star.svg);
+}
+
