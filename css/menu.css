@@ -7,7 +7,14 @@
 .menu__item a {
   font-weight: 500;
   line-height: 28px;
-  color: #626060;
+  color: #1E1B1B;
+  transition: 0.3s;
+}
+
+.menu__item a:hover {
+  color: #585858;
+  text-decoration: underline;
+  transition: 0.3s;
 }
 
 .menu__item:last-child {
