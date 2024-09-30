@@ -1,0 +1,26 @@
+/* ====== Menu ====== */
+
+.menu__item {
+  margin-right: 40px;
+}
+
+.menu__item a {
+  font-weight: 500;
+  line-height: 28px;
+  color: #626060;
+}
+
+.menu__item:last-child {
+  margin-right: 32px;
+}
+
+.menu::after {
+  width: 1px;
+  height: 42px;
+  content: '';
+  position: absolute;
+  top: -25%;
+  right: 0;
+  background-color: #939191;
+  opacity: 0.3;
+}
