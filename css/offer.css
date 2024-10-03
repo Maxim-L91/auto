@@ -1,0 +1,101 @@
+.offer {
+  padding: 128px 0;
+  background-color: #F2F2F2;
+}
+
+.offer__wrapper {
+  max-width: 1318px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.offer__suptitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #1E1B1B;
+}
+
+.offer__title {
+  max-width: 858px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 76px;
+}
+
+/* ====== Сетка ====== */
+
+.offer__grid {
+  margin-top: 64px;
+}
+
+/* ====== Clearfix ====== */
+
+.offer__grid::before,
+.offer__grid::after {
+  content: "";
+  display: table;
+}
+.offer__grid::after {
+  clear: both;
+}
+.offer__grid {
+  clear: both;
+  *zoom: 1;
+}
+
+/* ====== Карточки ====== */
+
+.offer__item {
+  width: 316px;
+  height: 232px;
+  background-color: #fff;
+  float: left;
+  position: relative;
+  margin: 0 8px 8px 0;
+  transition: all 0.4s;
+}
+
+.offer__item:hover {
+  background-color: #FF6433;
+  transition: all 0.4s;
+}
+
+.offer__item:nth-child(4n) {
+  margin: 0 0 0 0;
+}
+
+.offer__item-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.offer__item-text {
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.offer__about-link {
+  float: right;
+  margin-top: 32px;
+  transition: all 0.4s;
+}
+
+.offer__about-link:hover {
+  color: #FF6433;
+  transition: all 0.4s;
+}
+
+.offer__about-link span {
+  font-size: 18px;
+  line-height: 175%;
+  margin-right: 16px;
+}
